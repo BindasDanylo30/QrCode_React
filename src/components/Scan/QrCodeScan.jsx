@@ -26,6 +26,7 @@ export const QrCodeScan = () => {
       {/* // здесь костыль: обернутый ещё один блок, не смог поставить style сканера */}
       <div style={{ width: 200 }}>
         <Scanner
+          allowMultiple
           onScan={scanHandler}
           components={{
             finder: false,
