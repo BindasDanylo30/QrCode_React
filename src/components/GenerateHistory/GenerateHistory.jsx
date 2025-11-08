@@ -8,12 +8,14 @@ export const GenerateHistory = () => {
   console.log(data);
 
   return (
-    <div>
+    <div className={s.historyContainer}>
       {data.map((text, index) => (
-        <p key={`${text}-${index}`}>
-          {text}
-          <QRCodeSVG value={text} size="130" />
-        </p>
+        <div className={s.historyCard} key={`${text}-${index}`}>
+          <div className={s.qrWrapper}>
+            <QRCodeSVG value={text} size="130" />
+          </div>
+          <p>{text}</p>
+        </div>
       ))}
     </div>
   );

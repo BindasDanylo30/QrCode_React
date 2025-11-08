@@ -22,9 +22,12 @@ export const QrCodeScan = () => {
 
   return (
     <div className={s.conteiner}>
-      {" "}
+      <div style={{ fontSize: "24px", fontFamily: "system-ui" }}>
+        scan your QrCode
+      </div>
+
       {/* // здесь костыль: обернутый ещё один блок, не смог поставить style сканера */}
-      <div style={{ width: 200 }}>
+      <div className={s.scaner} style={{ width: 460 }}>
         <Scanner
           allowMultiple
           onScan={scanHandler}

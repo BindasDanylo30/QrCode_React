@@ -1,6 +1,6 @@
 .conteiner {
   margin-top: 20px;
-  background-color: rgb(214, 213, 213);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,10 @@
   height: 100vh;
 }
 .result {
-  font-size: 20px;
+  font-size: 22px;
   margin-bottom: 30px;
+}
+.scaner {
+  border-radius: 5%;
+  overflow: hidden;
 }

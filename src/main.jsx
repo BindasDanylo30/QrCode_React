@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Layout } from "./Layout.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/QrCode_React">
     <Layout />
   </BrowserRouter>
 );
