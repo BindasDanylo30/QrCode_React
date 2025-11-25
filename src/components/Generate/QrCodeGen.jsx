@@ -46,9 +46,7 @@ export const QrCodeGen = () => {
       </button>
 
       {error && (
-        <div className={s.error}>
-          Пожалуйста, введите текст для генерации QR-кода
-        </div>
+        <div className={s.error}>Please enter text to generate a QrCode</div>
       )}
 
       {result !== "" && (

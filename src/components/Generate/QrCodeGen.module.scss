@@ -7,7 +7,7 @@
 }
 
 .qrWrapper svg path last-child {
-  fill: rgb(207, 108, 108);
+  fill: rgb(255, 255, 255);
 }
 
 .button {
@@ -27,5 +27,9 @@
   font-size: 24px;
   padding: 8px 12px;
   color: #333;
+}
+.error {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
 }
 // -----------------------------------
